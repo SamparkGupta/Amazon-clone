@@ -1,0 +1,719 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box
+
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    
+}
+.nav-logo{
+    height:50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(Jun\ 15\,\ 2026\,\ 01_32_31\ PM.png);
+    height:50px;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border-color: white;
+}
+/* box2*/
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 18px;
+}
+.add-sec{
+    font-size: 0.9rem;
+      
+    font-weight: 700;    
+    
+   
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/* box3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+   
+    width: 850px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px ;
+    text-align: center;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border: 2px solid white;
+}
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f7aa04 ;
+    font-size: 1rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+/* box4*/
+
+.nav-lang{
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: end;
+
+}
+.lang-icon{
+    width: 50px;
+    height: 13px;
+    background-image: url(Flag_of_the_United_States.svg.png);
+    background-size: cover;
+    margin-bottom: 8px;
+}
+.lang-text{
+    width: 18x;
+    height: 30px;
+    color: white;
+    display: flex;
+    align-items: end;
+
+}
+.lang-text-select{
+    background-color: #0f1111;
+    color: white;
+    border: none;
+     font-size: 0.85rem;
+    font-weight: 700;
+    height: 100%;
+    padding-top: 2px;   
+}
+
+
+/*box5*/
+.sign-select{
+    background-color: #0f1111;
+    border: none;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+span{
+    border: none;
+    font-size: 12px;
+    padding-left: 4px;
+}
+.return-second{
+     color: white;
+    font-size: 0.85rem;
+    font-weight: 700;    
+    padding-top: 5px;
+}
+.return-first{
+     font-size: 12px;
+   
+}
+
+/*box6*/
+
+.nav-cart{
+    display: flex;
+    align-items: end;
+}
+.cart-icon{
+    font-size: 30px;
+}
+.cart-text{
+      font-size: 0.85rem;
+    font-weight: 700;    
+    padding-top: 5px;
+}
+
+.active{
+    background-color: #f3f3f3;
+}
+.active:hover{
+    background-color: #dbd7d7;
+}
+.search-input::after{
+    border: 2px solid rgb(244, 176, 6);    
+}
+.search-icon:hover{
+    background-color:#f79a04 ;
+}
+
+/* panel*/
+
+.panel{
+    width:100% ;
+    height: 39px;
+    background-color: #232f3E;
+    display: flex;
+    color: white;
+    align-items: center;
+    
+   
+  
+}
+
+.pan-box1{
+display: flex;
+align-items: center;
+height: 35px;
+width: 59px;
+font-weight: 700; 
+font-size: 14px;
+margin-left: 15px;
+}
+
+.all-icon{
+}
+
+.all-text{
+   
+   
+}
+a{
+text-decoration: none;
+color: white;
+height: 25px;
+text-align: center;
+
+}
+.anchors{
+    display: flex;
+    align-items: center;
+     height: 40px;
+     gap: 15px;
+     padding-top:10px ;
+     font-size: 14px;
+}
+
+/* hero secton*/
+.hero-section{
+    background-image: url(71QcgptqadL._SX3000_.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    
+}
+.hero-msg{
+    background-color: white;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    width: 1450px;
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color: #007185;
+
+}
+
+/*shop section*/
+.box{
+height: 400px;
+width: 23%;
+background-color: white;
+padding: 20px 0px 15px;
+margin-top:15px ;
+
+
+}
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.box-content{
+    margin-left:1rem ;
+    margin-right: 1rem;
+}
+.box-content p{
+    color:#007185;
+    font-size: 0.85rem;
+}
+.box-content p:hover{
+    color:#6343c5; ;
+}
+
+/*********/
+
+
+.box-img-sections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.image1{
+    background-image: url(DQC_APR_TBYB_W_BOTTOMS_1x._SY116_CB624172947_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+
+
+}
+.image2{
+    background-image: url(DQC_APR_TBYB_W_TOPS_1x._SY116_CB623353881_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.image3{
+    background-image: url(DQC_APR_TBYB_W_DRESSES_1x._SY116_CB623353881_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.image4{
+    background-image: url(DQC_APR_TBYB_W_SHOES_1x._SY116_CB624172947_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.seemore{
+      margin-top: 2.5rem;
+}
+.box2 .box-content h2{
+    margin-left: 0.85rem;
+}
+.box3-image1{
+    background-image: url(Home_Flip_Summer_2024_315_HP_NewArrivals_QuadCard_D_01_1x._SY116_CB555960040_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+
+
+}
+.box3-image2{
+    background-image: url(Home_Flip_Summer_2024_316_HP_NewArrivals_QuadCard_D_02_1x._SY116_CB555960040_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.box3-image3{
+    background-image: url(Home_Flip_Summer_2024_317_HP_NewArrivals_QuadCard_D_03_1x._SY116_CB555960040_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.box3-image4{
+    background-image: url(Home_Flip_Summer_2024_318_HP_NewArrivals_QuadCard_D_04_1x._SY116_CB555960040_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.box3 .box-content h2{
+    margin-left: 0.85rem;
+}
+.box4-image1{
+    background-image: url(Fuji_Defect_Reduction_1x_Headphones._SY116_CB549022351_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+
+
+}
+.box4-image2{
+    background-image: url(Fuji_Defect_Reduction_1x_Tablets._SY116_CB549022351_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.box4-image3{
+    background-image: url(Fuji_Defect_Reduction_1x_Gaming._SY116_CB549022351_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.box4-image4{
+    background-image: url(Fuji_Defect_Reduction_1x_Speakers._SY116_CB549022351_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.box4 .box-content h2{
+    margin-left: 0.85rem;
+}
+.box5-image1{
+    background-image: url(AIS_FDay_2026_02_Fday_01_Muse_Prod_melody_homepage_372x232_1X._SY116_CB780692195_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+
+
+}
+.box5-image2{
+    background-image: url(AIS_FDay_2026_02_Fday_03_Muse_Prod_melody_homepage_372x232_1X._SY116_CB780692223_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.box5-image3{
+    background-image: url(AIS_FDay_2026_02_Fday_07_Muse_Prod_melody_homepage_372x232_1X._SY116_CB780692172_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.box5-image4{
+    background-image: url(AIS_FDay_2026_02_Fday_05_Muse_Prod_melody_homepage_372x232_1X._SY116_CB780692213_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.box5 .box-content h2{
+    margin-left: 0.85rem;
+}
+.box6-image1{
+    background-image: url(LSS23_SPRING_DT_CAT_CARD_2_x1._SY116_CB595261253_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+
+
+}
+.box6-image2{
+    background-image: url(LSS23_SPRING_DT_CAT_CARD_3_x1._SY116_CB595261253_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.box6-image3{
+    background-image: url(LSS23_SPRING_DT_CAT_CARD_1_x1._SY116_CB595261253_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.box6-image4{
+    background-image: url(LSS23_SPRING_DT_CAT_CARD_4_x1._SY116_CB595261253_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.box6 .box-content h2{
+    margin-left: 0.85rem;
+}
+.box7-image1{
+    background-image: url(Fuji_Defect_Reduction_1x_Clothing._SY116_CB549022351_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+
+
+}
+.box7-image2{
+    background-image: url(Fuji_Defect_Reduction_1x_Trackers._SY116_CB549022351_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.box7-image3{
+    background-image: url(Fuji_Defect_Reduction_1x_Equipment._SY116_CB549022351_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.box7-image4{
+    background-image: url(Fuji_Defect_Reduction_1x_Deals_Fitness._SY116_CB549022351_.jpg);
+    background-size: cover;
+    height: 115px;
+    width: 140px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.box7 .box-content h2{
+    margin-left: 0.85rem;
+}
+
+.box8-image1{
+    background-image: url(313wAT6Iy2L._SY160_.jpg);
+    background-size: cover;
+    height: 135px;
+    width: 300px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+
+
+}
+.box8-image2{
+    background-image: url(21W7-lndINL._SY75_.jpg);
+    background-size: cover;
+    height: 95px;
+    width: 92px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.box8-image3{
+    background-image: url(21B-NkA9p-L._SY75_.jpg);
+    background-size: cover;
+    height: 95px;
+    width: 92px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.box8-image4{
+    background-image: url(217GQ1a2QzL._SY75_.jpg);
+    background-size: cover;
+    height: 95px;
+    width: 92px;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.box8 .box-content h2{
+    margin-left: 0.85rem;
+}
+p1{
+    font-size: 0.85rem;
+}
+
+/*************body bottom**********/
+.body-bottom{
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.lastline{
+    font-size: 0.65rem;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.lastline a{
+    color: #2162a1;
+    text-decoration: underline;
+    margin-left: 2px;
+}
+
+.lastline a:hover{
+    color: #6343c5;
+    text-decoration: underline;
+}
+/****footer********/
+.foot-panel{
+    height: 49px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel2{
+    font-size: 0.85rem;
+    color: white;
+}
+footer{
+    margin-top: 15px;
+}
+button{
+    width: 200px;
+    height: 30px;
+    background-color: #f7db04;
+    border-radius: 30px;
+    border: none;
+    margin-top: 10px;
+}
+
+.footer-section{
+    display: flex;
+    background-color: #232f3E;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+ul a{
+    display:block;
+   text-align: left;
+   font-size: 0.85rem;
+}
+.footer-section p{
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 700;
+   
+}
+.footer-section ul{
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+.list{
+    margin-top: 45px;
+}
+/******footer section2******/
+
+.footer-sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.4);
+    background-color: #232f3e;
+}
+.sec2-img{
+    background-image: url(vecteezy_amazon-logo-png-amazon-icon-transparent-png_19766240\ \(1\).png);
+    width: 120.4px;
+    height: 50px;
+    background-size: cover;
+    margin-right: 80px;
+}
+.sec2-text{
+    display: flex;
+    gap: 15px;
+    font-size: 0.85rem;
+    
+}
+.eng{
+    display: flex;
+    color: white;
+    width: 132px;
+    height: 34px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    align-items: center;
+    justify-content: space-evenly;
+}
+.money{
+    display: flex;
+    color: white;
+    width: 200px;
+    height: 34px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    align-items: center;
+    justify-content: space-evenly;
+}
+.us{
+    display: flex;
+    color: white;
+    width: 200px;
+    height: 34px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    align-items: center;
+    justify-content: space-evenly;
+}
+.usa{
+background-image: url(Flag_of_the_United_States.svg.png);
+width: 18px;
+height: 12px;
+background-size: cover;
+}
+
+.last-footer{
+    display: flex;
+    justify-content: center;
+    background-color: #131a22;
+    color: white;
+    font-size: 0.7rem;
+    gap: 20px;
+   
+}
+.copy{
+    padding-top: 10px;
+     padding-bottom: 30px;
+}
+.first{
+    padding-top: 10px;
+}
+button:hover{
+    background-color: #f7cb04;
+}
+.foot-panel:hover{
+    background-color: #445060;
+}
+.footer-section a:hover{
+    text-decoration: underline;
+}
+.first p:hover{
+    text-decoration: underline;
+}
+.hero-msg a:hover{
+    color: #012025;
+    text-decoration: underline;
+}
